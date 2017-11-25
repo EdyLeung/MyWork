@@ -35,10 +35,7 @@ namespace MyFunction
             }
         }
 
-        private void editBoxText_TextChanged(object sender, RibbonControlEventArgs e)
-        {
-            sheetName = editBoxText.Text;//赋值给字段
-        }
+        private void editBoxText_TextChanged(object sender, RibbonControlEventArgs e) => sheetName = editBoxText.Text;//赋值给字段
 
         private void btnSearchWkb_Click(object sender, RibbonControlEventArgs e)
         {
